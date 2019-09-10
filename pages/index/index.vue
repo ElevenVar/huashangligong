@@ -1,9 +1,6 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
-		</view>
+		<image class="logo" src="/static/img/480.800.png"></image>
 	</view>
 </template>
 
@@ -11,42 +8,27 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello'
 			}
 		},
 		onLoad() {
-
+			setTimeout('uni.navigateTo({url:"../login/login"})',1000)
 		},
 		methods: {
-
+			tab:function(){
+				uni.navigateTo({
+					url:'../login/login'
+				})
+			}
 		}
 	}
 </script>
 
 <style>
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+	.content{
+		height:100vh;
 	}
-
-	.logo {
-		height: 200upx;
-		width: 200upx;
-		margin-top: 200upx;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 50upx;
-	}
-
-	.text-area {
-		display: flex;
-		justify-content: center;
-	}
-
-	.title {
-		font-size: 36upx;
-		color: #8f8f94;
+	.logo{
+		width:100%;
+		height:100vh;
 	}
 </style>

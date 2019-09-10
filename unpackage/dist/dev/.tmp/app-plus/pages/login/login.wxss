@@ -1,0 +1,5 @@
+.imgBox {
+  width: 750rpx;
+  height: 460rpx;
+}
+

@@ -1,13 +1,50 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/login/login",
+    "pages/index/index",
+    "pages/home/home",
+    "pages/main/main",
+    "pages/payment/payment",
+    "pages/modules/modules"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
+    "navigationBarTitleText": "hslg",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#dcdcdc",
+    "selectedColor": "#2292DD",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/img/homeImg/sy.png",
+        "selectedIconPath": "static/img/homeImg/sy1.png"
+      },
+      {
+        "pagePath": "pages/modules/modules",
+        "text": "功能",
+        "iconPath": "static/img/homeImg/gn.png",
+        "selectedIconPath": "static/img/homeImg/gn1.png"
+      },
+      {
+        "pagePath": "pages/payment/payment",
+        "text": "支付",
+        "iconPath": "static/img/homeImg/zf.png",
+        "selectedIconPath": "static/img/homeImg/zf1.png"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "text": "我的",
+        "iconPath": "static/img/homeImg/wd.png",
+        "selectedIconPath": "static/img/homeImg/wd1.png"
+      }
+    ]
   },
   "usingComponents": {}
 }
