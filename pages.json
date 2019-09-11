@@ -1,28 +1,36 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		 {
-		 	"path": "pages/login/login",
-		 	"style": {
-		 		"navigationBarTitleText":"首页",
-				"navigationStyle":"custom"
-		 	}
-		 }, {
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/payment/payment",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/modules/modules",
+			"style": {
+				"navigationBarTitleText": "功能"
+			}
+		}, {
 			"path": "pages/index/index",
 			"style": {
 				"navigationStyle": "custom"
 			}
-		},{
-			"path": "pages/home/home",
-			"style": {}
 		}, {
 			"path": "pages/main/main",
-			"style": {}
-		}, {
-			"path": "pages/payment/payment",
-			"style": {}
-		}, {
-			"path": "pages/modules/modules",
-			"style": {}
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
 		}
 	],
 	"globalStyle": { //设置主页面默认显示内容

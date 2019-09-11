@@ -11,14 +11,14 @@
 			}
 		},
 		onLoad() {
-			setTimeout('uni.navigateTo({url:"../login/login"})',1000)
+			// setTimeout('uni.navigateTo({url:"../login/login"})',1000)
+		},
+		onShow(){
+			setTimeout(function(){
+				uni.navigateTo({url:"../login/login"})
+			},2000)
 		},
 		methods: {
-			tab:function(){
-				uni.navigateTo({
-					url:'../login/login'
-				})
-			}
 		}
 	}
 </script>

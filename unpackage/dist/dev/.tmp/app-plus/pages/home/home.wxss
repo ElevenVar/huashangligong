@@ -1,0 +1,31 @@
+.fs12 ._span {
+  font-size: 12px !important;
+}
+.img {
+  width: 100%;
+  height: 250px;
+}
+.zlGrid .zlGrid-Item {
+  width: 25%;
+  text-align: center;
+}
+.zlGrid .zlGrid-Item .zlGrid-Img {
+  width: 40px;
+  height: 40px;
+}
+.zlNew {
+  padding-top: 10px;
+  background-color: #f2f2f2;
+}
+.zlNew .zlNew-Title {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #fff;
+}
+.zlNew .zlNew-Title .zlNew-img {
+  width: 20px;
+  height: 20px;
+}
+

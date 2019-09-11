@@ -1,5 +1,104 @@
+.logoBox {
+  width: 100%;
+  height: 250px;
+}
 .imgBox {
-  width: 750rpx;
-  height: 460rpx;
+  width: 100%;
+  height: 100%;
+}
+.logoImg {
+  width: 110px;
+  height: 108px;
+  top: 50%;
+  left: 50%;
+  margin-left: -55px;
+  margin-top: -54px;
+}
+.textBox {
+  width: 100%;
+  top: 160px;
+  left: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+.textBox .text {
+  color: #fff;
+}
+.roleBox {
+  width: 100%;
+  top: 235px;
+}
+.roleBox .roleList {
+  z-index: 100;
+  margin: 0 auto;
+  width: 550rpx;
+  height: 35px;
+  border-radius: 15px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 1px 8px #333333;
+          box-shadow: 0px 1px 8px #333333;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.roleBox .roleList .role {
+  width: 33.333%;
+  text-align: center;
+  line-height: 35px;
+  font-size: 14px;
+  color: grey;
+}
+.roleBox .roleList .actived {
+  background-color: #2292DD;
+  color: #fff;
+  border-radius: 15px;
+}
+.formBox {
+  padding: 35px 25px;
+}
+.formBox .inputBox {
+  background-color: #f2f2f2;
+  margin-top: 45px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #f2f2f2;
+}
+.formBox .inputBox .input {
+  margin-left: 30px;
+  font-size: 12px;
+  text-indent: 15px;
+  margin-top: 6px;
+  height: 20px;
+  line-height: 22px;
+  margin-top: 5px;
+}
+.formBox .inputBox .imgIcon {
+  width: 20px;
+  height: 20px;
+  left: 15px;
+  top: 10px;
+}
+.formBox .inputBox .Vcode {
+  width: 100px;
+  right: 0;
+  top: 0;
+  text-align: center;
+  background-color: #2292DD;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+}
+.formBox .inputBox .button {
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  background-color: #2292DD;
+  border-radius: 10px;
 }
 

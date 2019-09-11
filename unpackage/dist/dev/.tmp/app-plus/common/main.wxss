@@ -14,10 +14,31 @@
 
 
 /*每个页面公共css */
+.fs12 ._span {
+  font-size: 12px;
+}
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.fl {
+  float: left;
+}
 .pa {
   position: absolute;
 }
 .pr {
   position: relative;
+}
+.mgl10 {
+  margin-left: 10px;
+}
+.mgr10 {
+  margin-right: 10px;
+}
+.pd10 {
+  padding: 10px;
 }
 
