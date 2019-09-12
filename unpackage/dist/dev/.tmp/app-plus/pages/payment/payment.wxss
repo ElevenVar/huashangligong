@@ -1,0 +1,24 @@
+.bigImgBox.data-v-72f6f1cf {
+  width: 100%;
+  height: 300px;
+}
+.bigImgBox .bigImg.data-v-72f6f1cf {
+  width: 100%;
+  height: 100%;
+}
+.payWayBox.data-v-72f6f1cf {
+  height: 90px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
+}
+.payWayBox .pay.data-v-72f6f1cf {
+  width: 48%;
+}
+.payWayBox .pay .pays.data-v-72f6f1cf {
+  width: 100%;
+  height: 100%;
+}
+

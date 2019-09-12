@@ -12,7 +12,7 @@
 				<view>
 					<image class="zlGrid-Img" :src="item.url" mode=""></image>
 				</view>
-				<text class='fs12' style='font-size:14px;'>{{item.text1}}</text>
+				<text class='fs13'>{{item.text1}}</text>
 			</view>
 		</view>
 	</view>

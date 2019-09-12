@@ -3,14 +3,6 @@
   height: 0;
   background-color: transparent;
 }
-.zlGrid .zlGrid-Item {
-  width: 25%;
-  text-align: center;
-}
-.zlGrid .zlGrid-Item .zlGrid-Img {
-  width: 40px;
-  height: 40px;
-}
 .zlNew {
   padding-top: 5px;
   background-color: #f2f2f2;

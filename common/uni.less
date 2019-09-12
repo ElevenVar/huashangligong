@@ -7,16 +7,16 @@
 	font-size:14px;
 }
 .fs12{
-	font-size:12px;
+	font-size:12px !important;
 }
 .fs13{
-	font-size:13px;
+	font-size:13px !important;
 }
 .fs14{
-	font-size:14px;
+	font-size:14px !important;
 }
 .fs16{
-	font-size:16px;
+	font-size:16px !important;
 }
 .bgw{
 	background-color:#fff;
@@ -48,6 +48,12 @@
 .pdb10{
 	padding-bottom:10px;
 }
+.max{
+	width:100%;height:100%;text-align: center;
+}
+.col-4{
+	width:25% !important;
+}
 //页面头部。首页，我的
 .headerBox{
 	width:100%;
@@ -65,11 +71,11 @@
 }
 // 中间宫格部分
 .zlGrid{
-	display: flex;
+	display: flex;flex-wrap:wrap;
 	.zlGrid-Item{
-		width: 33.33%;text-align: center;
+		width: 33.33%;text-align: center;padding:5px 0;
 		.zlGrid-Img {
-			width: 40px;height: 40px;
+			width: 35px;height: 35px;
 		}
 	}
 }

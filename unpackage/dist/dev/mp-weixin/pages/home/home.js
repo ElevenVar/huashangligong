@@ -162,7 +162,7 @@ var _default =
     return {
       GridItem: [{
         url: '../../static/img/homeImg/bmjf.png',
-        text: '报名查询',
+        text: '学杂费',
         text1: "顶呱呱大学" },
 
       {
@@ -172,12 +172,12 @@ var _default =
 
       {
         url: '../../static/img/homeImg/dzmj.png',
-        text: '电子门禁',
+        text: '课程',
         text1: "顶呱呱大学" },
 
       {
         url: '../../static/img/homeImg/hfcz.png',
-        text: '话费充值',
+        text: '消息',
         text1: "顶呱呱大学" }],
 
 

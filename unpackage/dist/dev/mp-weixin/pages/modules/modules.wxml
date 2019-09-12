@@ -1,1 +1,1 @@
-<view>功能</view>
+<view><view class="zlGrid pd10"><block wx:for="{{GridItem}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['zlGridC',['$0',index],[[['GridItem','',item.index,'text']]]]]]]}}" class="zlGrid-Item col-4" bindtap="__e"><view><image class="zlGrid-Img" src="{{item.url}}" mode></image></view><text class="fs12" style="font-size:14px;">{{item.text1}}</text></view></block></view></view>

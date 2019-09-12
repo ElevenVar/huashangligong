@@ -3,12 +3,12 @@
 		<view class='headerBox'>
 			<image class='headerImg' src="../../static/img/homeImg/banner1.png" mode=""></image>
 		</view>
-		<view class='zlGrid pd10 flex'>
-			<view class="zlGrid-Item" :key="item.index" v-for="(item,index) in GridItem" @tap="zlGridC(item.text,index)">
+		<view class='zlGrid pd10'>
+			<view class="zlGrid-Item col-4" :key="item.index" v-for="(item,index) in GridItem" @tap="zlGridC(item.text,index)">
 				<view>
 					<image class="zlGrid-Img" :src="item.url" mode=""></image>
 				</view>
-				<text class='fs12' style='font-size:14px;'>{{item.text1}}</text>
+				<text class='fs14'>{{item.text1}}</text>
 			</view>
 		</view>
 		<view class='zlNew'>
@@ -39,7 +39,7 @@
 			return {
 				GridItem: [{
 						url: '../../static/img/homeImg/bmjf.png',
-						text: '报名查询',
+						text: '学杂费',
 						text1: "顶呱呱大学"
 					},
 					{
@@ -49,12 +49,12 @@
 					},
 					{
 						url: '../../static/img/homeImg/dzmj.png',
-						text: '电子门禁',
+						text: '课程',
 						text1: "顶呱呱大学"
 					},
 					{
 						url: '../../static/img/homeImg/hfcz.png',
-						text: '话费充值',
+						text: '消息',
 						text1: "顶呱呱大学"
 					},
 				],
@@ -113,18 +113,6 @@
 		width: 0;
 		height: 0;
 		background-color: transparent;
-	}
-
-	.zlGrid {
-		.zlGrid-Item {
-			width: 25%;
-			text-align: center;
-
-			.zlGrid-Img {
-				width: 40px;
-				height: 40px;
-			}
-		}
 	}
 
 	.zlNew {
