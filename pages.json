@@ -3,48 +3,57 @@
 		{
 			"path": "pages/home/home",
 			"style": {
-				"navigationStyle": "custom"
+				"navigationStyle": "custom",
+				"navigationBarBackgroundColor":"#129aff"
 			}
 		}, {
 			"path": "pages/payment/payment",
 			"style": {
-				"navigationBarTitleText": "支付"
+				"navigationBarTitleText": "支付",
+				"navigationBarBackgroundColor":"#129aff"
 			}
 		}, {
 			"path": "pages/login/login",
 			"style": {
 				"navigationBarTitleText": "首页",
-				"navigationStyle": "custom"
+				"navigationStyle": "custom",
+				"navigationBarBackgroundColor":"#129aff"
 			}
 		}, {
 			"path": "pages/modules/modules",
 			"style": {
-				"navigationBarTitleText": "功能"
+				"navigationBarTitleText": "功能",
+				"navigationBarBackgroundColor":"#129aff"
 			}
 		}, {
 			"path": "pages/index/index",
 			"style": {
-				"navigationStyle": "custom"
+				"navigationStyle": "custom",
+				"navigationBarBackgroundColor":"#129aff"
 			}
 		}, {
 			"path": "pages/main/main",
 			"style": {
-				"navigationBarTitleText": "我的"
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
 			}
 		}, {
 			"path": "pages/setup/setup",
 			"style": {
-				"navigationBarTitleText": "设置"
+				"navigationBarTitleText": "设置",
+				"navigationBarBackgroundColor":"#129aff"
 			}
 		}, {
 			"path": "pages/information/information",
 			"style": {
-				"navigationBarTitleText": "个人信息"
+				"navigationBarTitleText": "个人信息",
+				"navigationBarBackgroundColor":"#129aff"
 			}
 		}, {
 			"path": "pages/message/message",
 			"style": {
-				"navigationBarTitleText": "信息记录"
+				"navigationBarTitleText": "信息记录",
+				"navigationBarBackgroundColor":"#129aff"
 			}
 		}
 	],

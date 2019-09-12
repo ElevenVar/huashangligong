@@ -1221,15 +1221,15 @@ function gz$gwx_8(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_8)return __WXML_GLOBAL__.ops_cached.$gwx_8
 __WXML_GLOBAL__.ops_cached.$gwx_8=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'data-v-72f6f1cf'])
-Z([3,'bigImgBox data-v-72f6f1cf'])
-Z([3,'bigImg data-v-72f6f1cf'])
+Z([3,'data-v-77aaaa36'])
+Z([3,'bigImgBox data-v-77aaaa36'])
+Z([3,'bigImg data-v-77aaaa36'])
 Z([3,'../../static/img/paymentImg/Group.png'])
-Z([3,'payWayBox flex data-v-72f6f1cf'])
+Z([3,'payWayBox flex data-v-77aaaa36'])
 Z([3,'__e'])
-Z([3,'pay data-v-72f6f1cf'])
+Z([3,'pay data-v-77aaaa36'])
 Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'getScan']],[[4],[[5],[1,'$event']]]]]]]]]]])
-Z([3,'pays data-v-72f6f1cf'])
+Z([3,'pays data-v-77aaaa36'])
 Z([3,'../../static/img/paymentImg/sys.png'])
 Z(z[6])
 Z(z[8])
@@ -1681,7 +1681,7 @@ __wxAppCode__['pages/message/message.wxml']=$gwx('./pages/message/message.wxml')
 __wxAppCode__['pages/modules/modules.wxss']=undefined;    
 __wxAppCode__['pages/modules/modules.wxml']=$gwx('./pages/modules/modules.wxml');
 
-__wxAppCode__['pages/payment/payment.wxss']=setCssToHead([".",[1],"bigImgBox.",[1],"data-v-72f6f1cf { width: 100%; height: 300px; }\n.",[1],"bigImgBox .",[1],"bigImg.",[1],"data-v-72f6f1cf { width: 100%; height: 100%; }\n.",[1],"payWayBox.",[1],"data-v-72f6f1cf { height: 90px; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; padding: 15px; }\n.",[1],"payWayBox .",[1],"pay.",[1],"data-v-72f6f1cf { width: 48%; }\n.",[1],"payWayBox .",[1],"pay .",[1],"pays.",[1],"data-v-72f6f1cf { width: 100%; height: 100%; }\n",],undefined,{path:"./pages/payment/payment.wxss"});    
+__wxAppCode__['pages/payment/payment.wxss']=setCssToHead([".",[1],"bigImgBox.",[1],"data-v-77aaaa36 { width: 100%; height: 300px; }\n.",[1],"bigImgBox .",[1],"bigImg.",[1],"data-v-77aaaa36 { width: 100%; height: 100%; }\n.",[1],"payWayBox.",[1],"data-v-77aaaa36 { height: 90px; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; padding: 15px; }\n.",[1],"payWayBox .",[1],"pay.",[1],"data-v-77aaaa36 { width: 48%; }\n.",[1],"payWayBox .",[1],"pay .",[1],"pays.",[1],"data-v-77aaaa36 { width: 100%; height: 100%; }\n",],undefined,{path:"./pages/payment/payment.wxss"});    
 __wxAppCode__['pages/payment/payment.wxml']=$gwx('./pages/payment/payment.wxml');
 
 __wxAppCode__['pages/setup/setup.wxss']=undefined;    
