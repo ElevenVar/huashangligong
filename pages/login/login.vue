@@ -1,6 +1,6 @@
 <template>
 	<view class='indexBox'>
-		<view class='logoBox pr'>
+		<view class='headerBox pr'>
 			<image class='imgBox' src="../../static/img/homeImg/banner.png" mode=""></image>
 			<image class='logoImg pa' src="../../static/img/homeImg/school.png" mode=""></image>
 			<view class='textBox pa'>

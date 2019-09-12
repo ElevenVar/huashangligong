@@ -1,9 +1,7 @@
-.fs12 ._span {
-  font-size: 12px !important;
-}
-.img {
-  width: 100%;
-  height: 250px;
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background-color: transparent;
 }
 .zlGrid .zlGrid-Item {
   width: 25%;
@@ -14,7 +12,7 @@
   height: 40px;
 }
 .zlNew {
-  padding-top: 10px;
+  padding-top: 5px;
   background-color: #f2f2f2;
 }
 .zlNew .zlNew-Title {
@@ -23,9 +21,50 @@
       -ms-flex-pack: start;
           justify-content: flex-start;
   background-color: #fff;
+  height: 50px;
+  border-bottom: 1px solid #f2f2f2;
+  line-height: 50px;
 }
 .zlNew .zlNew-Title .zlNew-img {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+  top: 18px;
+  margin-right: 20px;
+  left: 10px;
+}
+.zlNew .zlNew-Title .text {
+  font-size: 16px;
+  font-weight: bold;
+}
+.zlNew .zlNew-List {
+  padding: 4px 10px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #f2f2f2;
+}
+.zlNew .zlNew-List .zlNew-List-Left {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  overflow: hidden;
+}
+.zlNew .zlNew-List .zlNew-List-Left .toe {
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+.zlNew .zlNew-List .zlNew-List-Right {
+  width: 90px;
+  height: 55px;
+  margin-left: 10px;
+}
+.zlNew .zlNew-List .zlNew-List-Right .zlNew-Img {
+  width: 100%;
+  height: 100%;
 }
 

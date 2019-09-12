@@ -14,8 +14,25 @@
 
 
 /*每个页面公共css */
-.fs12 ._span {
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+}
+.fs12 {
   font-size: 12px;
+}
+.fs13 {
+  font-size: 13px;
+}
+.fs14 {
+  font-size: 14px;
+}
+.fs16 {
+  font-size: 16px;
+}
+.bgw {
+  background-color: #fff;
 }
 .flex {
   display: -webkit-box;
@@ -35,10 +52,57 @@
 .mgl10 {
   margin-left: 10px;
 }
+.mgl20 {
+  margin-left: 20px;
+}
 .mgr10 {
   margin-right: 10px;
 }
 .pd10 {
   padding: 10px;
+}
+.pdb10 {
+  padding-bottom: 10px;
+}
+.headerBox {
+  width: 100%;
+  height: 250px;
+}
+.headerBox .headerImg {
+  width: 100%;
+  height: 100%;
+}
+.headerBox .logo {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #dcdcdc;
+  -webkit-box-shadow: 0px 1px 8px #333333;
+          box-shadow: 0px 1px 8px #333333;
+  left: 50%;
+  top: 50%;
+  margin-left: -50px;
+  margin-top: -70px;
+  border-radius: 50%;
+}
+.headerBox .headText {
+  with: 100%;
+  top: 170px;
+  text-align: center;
+  color: #fff;
+  padding: 5px 0;
+}
+.zlGrid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.zlGrid .zlGrid-Item {
+  width: 33.33%;
+  text-align: center;
+}
+.zlGrid .zlGrid-Item .zlGrid-Img {
+  width: 40px;
+  height: 40px;
 }
 
