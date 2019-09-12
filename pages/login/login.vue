@@ -4,7 +4,7 @@
 			<image class='imgBox' src="../../static/img/homeImg/banner.png" mode=""></image>
 			<image class='logoImg pa' src="../../static/img/homeImg/school.png" mode=""></image>
 			<view class='textBox pa'>
-				<text class='text'>uni-APP</text>
+				<text class='text'>华商理工</text>
 			</view>
 			<view class='roleBox pa'>
 				<view class='roleList'>
@@ -42,7 +42,7 @@
 		data() {
 			return {
 				activeClass:0,
-				roleList:["按钮","表格数","表单"]
+				roleList:["学生","教职工","家长"]
 			};
 		},
 		methods:{

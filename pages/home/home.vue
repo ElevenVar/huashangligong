@@ -8,7 +8,7 @@
 				<view>
 					<image class="zlGrid-Img" :src="item.url" mode=""></image>
 				</view>
-				<text class='fs14'>{{item.text1}}</text>
+				<text class='fs14'>{{item.text}}</text>
 			</view>
 		</view>
 		<view class='zlNew'>
@@ -39,23 +39,19 @@
 			return {
 				GridItem: [{
 						url: '../../static/img/homeImg/bmjf.png',
-						text: '学杂费',
-						text1: "顶呱呱大学"
+						text: '学杂费'
 					},
 					{
 						url: '../../static/img/homeImg/cjcx.png',
-						text: '成绩查询',
-						text1: "顶呱呱大学"
+						text: '成绩查询'
 					},
 					{
 						url: '../../static/img/homeImg/dzmj.png',
-						text: '课程',
-						text1: "顶呱呱大学"
+						text: '课程'
 					},
 					{
 						url: '../../static/img/homeImg/hfcz.png',
-						text: '消息',
-						text1: "顶呱呱大学"
+						text: '消息'
 					},
 				],
 				zlNewLists: [{
