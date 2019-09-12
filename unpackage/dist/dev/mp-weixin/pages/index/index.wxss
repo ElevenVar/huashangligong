@@ -1,0 +1,11 @@
+
+uni-page-body{
+	height:100%;
+}
+uni-view{
+	height:100%;
+}
+uni-image{
+	width:100%;height:100%;
+}
+
