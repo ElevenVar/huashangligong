@@ -1,1 +1,1 @@
-<view>个人信息</view>
+<view class="zlTab flex"><view zlTab-Item>校园信息</view><view zlTab-Item>班级信息</view></view>

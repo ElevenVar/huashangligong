@@ -1,0 +1,8 @@
+.zlTab {
+  border: 1px solid red;
+}
+.zlTab .zlTab-Item {
+  width: 50%;
+  text-align: center;
+}
+

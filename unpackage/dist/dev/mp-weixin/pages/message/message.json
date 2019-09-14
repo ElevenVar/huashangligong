@@ -1,5 +1,6 @@
 {
-  "navigationBarTitleText": "信息记录",
+  "navigationBarTitleText": "消息中心",
   "navigationBarBackgroundColor": "#129aff",
+  "navigationBarTextStyle": "white",
   "usingComponents": {}
 }

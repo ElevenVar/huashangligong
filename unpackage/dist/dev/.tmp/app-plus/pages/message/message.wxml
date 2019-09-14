@@ -1,1 +1,1 @@
-<view>信息记录</view>
+<view><view class="zlTab-header flex"><view class="zlTab-header-Item"><text data-event-opts="{{[['tap',[['changeType',[0]]]]]}}" class="{{['zlTab-header-Item-Type',activeClass==0?'btBlue':'']}}" bindtap="__e">校园信息</text></view><view class="zlTab-header-Item"><text data-event-opts="{{[['tap',[['changeType',[1]]]]]}}" class="{{['zlTab-header-Item-Type',activeClass==1?'btBlue':'']}}" bindtap="__e">班级信息</text></view></view><view class="zlTab-content"><view></view></view></view>

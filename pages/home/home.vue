@@ -38,7 +38,7 @@
 		data() {
 			return {
 				GridItem: [{
-						url: '../../static/img/homeImg/bmjf.png',
+						url: '../../static/img/homeImg/xzfs.png',
 						text: '学杂费'
 					},
 					{
@@ -46,11 +46,11 @@
 						text: '成绩查询'
 					},
 					{
-						url: '../../static/img/homeImg/dzmj.png',
+						url: '../../static/img/homeImg/kc.png',
 						text: '课程'
 					},
 					{
-						url: '../../static/img/homeImg/hfcz.png',
+						url: '../../static/img/homeImg/xx.png',
 						text: '消息'
 					},
 				],

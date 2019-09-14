@@ -1,1 +1,2 @@
+setCssToHead([".",[1],"zlTab { border: 1px solid red; }\n.",[1],"zlTab .",[1],"zlTab-Item { width: 50%; text-align: center; }\n",],undefined,{path:"./pages/information/information.wxss"})();
 document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/information/information.wxml') } }));

@@ -12,7 +12,7 @@
 				<view>
 					<image class="zlGrid-Img" :src="item.url" mode=""></image>
 				</view>
-				<text class='fs13'>{{item.text1}}</text>
+				<text class='fs13'>{{item.text}}</text>
 			</view>
 		</view>
 	</view>
@@ -25,17 +25,17 @@
 				GridItem: [{
 						url: '../../static/img/mainImg/grxx.png',
 						text: '个人信息',
-						text1: "顶呱呱大学"
+						"path":"../information/information"
 					},
 					{
 						url: '../../static/img/mainImg/xxzx.png',
 						text: '消息记录',
-						text1: "顶呱呱大学"
+						"path":"../message/message"
 					},
 					{
 						url: '../../static/img/mainImg/sz.png',
 						text: '设置',
-						text1: "顶呱呱大学"
+						"path":"../setup/setup"
 					}
 				],
 			};

@@ -1,5 +1,6 @@
 {
   "navigationBarTitleText": "支付",
   "navigationBarBackgroundColor": "#129aff",
+  "navigationBarTextStyle": "white",
   "usingComponents": {}
 }

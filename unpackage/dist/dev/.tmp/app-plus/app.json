@@ -1,19 +1,27 @@
 {
   "pages": [
+    "pages/main/main",
+    "pages/message/message",
     "pages/index/index",
     "pages/home/home",
     "pages/payment/payment",
     "pages/login/login",
     "pages/modules/modules",
-    "pages/main/main",
     "pages/setup/setup",
     "pages/information/information",
-    "pages/message/message"
+    "pages/dianzimenjin/dianzimenjin",
+    "pages/xuefei/xuefei",
+    "pages/qingjia/qingjia",
+    "pages/chengjichaxun/chengjichaxun",
+    "pages/gongzichaxun/gongzichaxun",
+    "pages/xuezafei/xuezafei",
+    "pages/gongxiangxiyiji/gongxiangxiyiji",
+    "pages/kecheng/kecheng"
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "hslg",
-    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarBackgroundColor": "white",
     "backgroundColor": "#F8F8F8"
   },
   "tabBar": {

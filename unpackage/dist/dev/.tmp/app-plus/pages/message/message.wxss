@@ -1,0 +1,16 @@
+.zlTab-header {
+  border-bottom: 1px solid #f2f2f2;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+}
+.zlTab-header .zlTab-header-Item {
+  width: 50%;
+}
+.zlTab-header .zlTab-header-Item .zlTab-header-Item-Type {
+  padding: 9px 15px;
+}
+
