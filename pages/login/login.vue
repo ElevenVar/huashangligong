@@ -8,13 +8,8 @@
 			</view>
 			<view class='roleBox pa'>
 				<view class='roleList'>
-					<view 
-						class='role'
-						:class="activeClass == index ? 'actived':''"
-						:key='item.index'
-						v-for='(item,index) in roleList'
-						@tap="selectRole(index)"
-					>
+					<view class='role' :class="activeClass == index ? 'actived':''" :key='item.index' v-for='(item,index) in roleList'
+					 @tap="selectRole(index)">
 						{{item}}
 					</view>
 				</view>
@@ -23,13 +18,17 @@
 		<view class='formBox'>
 			<view class='inputBox pr'>
 				<image class='imgIcon pa' src="../../static/img/homeImg/sjh.png" mode=""></image>
-				<input class='input' placeholder="请输入手机号" type="text" value="" />
+				<input class='input' v-model='from.user_name' placeholder="请输入账号" type="text" value="" />
 			</view>
 			<view class='inputBox pr'>
 				<image class='imgIcon pa' src="../../static/img/homeImg/yzm.png" mode=""></image>
+				<input class='input' v-model='from.pwd' placeholder="请输入密码" type="password" value="" />
+			</view>
+			<!-- 			<view class='inputBox pr'>
+				<image class='imgIcon pa' src="../../static/img/homeImg/yzm.png" mode=""></image>
 				<input class='input' style='margin-right:100px;' placeholder="请输入验证码" type="text" value="" />
 				<view class='Vcode pa'>获取验证码</view>
-			</view>
+			</view> -->
 			<view class='inputBox pr' style='background-color:#fff;'>
 				<button class='button' type="primary" @tap="submit">登录</button>
 			</view>
@@ -38,22 +37,59 @@
 </template>
 
 <script>
+	import {
+		login
+	} from '../../api/api.js'
+	import md5 from 'js-md5'
 	export default {
 		data() {
 			return {
-				activeClass:0,
-				roleList:["学生","教职工","家长"]
+				activeClass: 0,
+				roleList: ["学生", "教职工", "家长"],
+				from: {
+					"user_name": "5120418210075", //用户名
+					"pwd": "123456", //密码
+					"type": ""
+				}
 			};
 		},
-		methods:{
+		methods: {
 			//选择登陆角色
-			selectRole(index){
+			selectRole(index) {
 				this.activeClass = index;
+				this.from.user_name = "";
+				this.from.pwd = "";
 			},
 			//登录
-			submit(){
-				uni.switchTab({
-					url:'../home/home',
+			submit() {
+				this.from.type = this.activeClass + 1
+				this.from.pwd = md5(this.from.pwd).toUpperCase()
+				uni.showLoading({
+					title: '登录中..'
+				});
+				uni.request({
+					url: login,
+					method: 'POST',
+					data: this.from,
+					success: (res) => {
+						uni.hideLoading(); //结束请求动画
+						if (res.data.code == 200) {
+							uni.setStorageSync("token",res.data.data.token);
+							uni.setStorageSync("userInfo", JSON.stringify(res.data.data));
+							uni.switchTab({
+								url: '../home/home',
+							})
+						} else {
+							uni.showToast({
+								title: res.data.msg,
+								icon: 'none',
+								duration: 2000
+							});
+						}
+					},
+					fail: (error) => {
+						console.log(error)
+					}
 				})
 			}
 		}
@@ -61,65 +97,115 @@
 </script>
 
 <style lang="less">
-	.indexBox{
+	.indexBox {}
+
+	.logoBox {
+		width: 100%;
+		height: 250px;
 	}
-	.logoBox{
-		width:100%;height:250px;
+
+	.imgBox {
+		width: 100%;
+		height: 100%;
 	}
-	.imgBox{
-		width:100%;
-		height:100%;
+
+	.logoImg {
+		width: 110px;
+		height: 108px;
+		top: 50%;
+		left: 50%;
+		margin-left: -55px;
+		margin-top: -54px;
 	}
-	.logoImg{
-		width:110px;
-		height:108px;
-		top:50%;
-		left:50%;
-		margin-left:-55px;
-		margin-top:-54px;
-	}
-	.textBox{
-		width:100%;top:160px;left:0;padding:10px 0;text-align: center;
-		.text{
-			color:#fff;
+
+	.textBox {
+		width: 100%;
+		top: 160px;
+		left: 0;
+		padding: 10px 0;
+		text-align: center;
+
+		.text {
+			color: #fff;
 		}
 	}
-	.roleBox{
-		width:100%;
-		top:235px;
-		.roleList{
-			z-index:100;
-			margin:0 auto;
-			width:550rpx;
-			height:35px;
+
+	.roleBox {
+		width: 100%;
+		top: 235px;
+
+		.roleList {
+			z-index: 100;
+			margin: 0 auto;
+			width: 550rpx;
+			height: 35px;
 			border-radius: 15px;
-			background-color:#fff;
-			box-shadow:0px 1px 8px #333333;
+			background-color: #fff;
+			box-shadow: 0px 1px 8px #333333;
 			display: flex;
 			justify-content: space-between;
-			.role{
-				width:33.333%; text-align: center; line-height:35px;font-size:14px; color:grey;
+
+			.role {
+				width: 33.333%;
+				text-align: center;
+				line-height: 35px;
+				font-size: 14px;
+				color: grey;
 			}
-			.actived{
-				background-color:#2292DD;color:#fff;border-radius: 15px;
+
+			.actived {
+				background-color: #2292DD;
+				color: #fff;
+				border-radius: 15px;
 			}
 		}
 	}
-	.formBox{
-		padding:35px 25px;
-		.inputBox{
-			background-color:#f2f2f2;margin-top:45px;height:40px;border-radius:10px;border:1px solid #f2f2f2;
-			.input{
-				margin-left:30px;font-size:12px;text-indent: 15px;margin-top:6px;height:20px;line-height:22px;margin-top:5px;
+
+	.formBox {
+		padding: 35px 25px;
+
+		.inputBox {
+			background-color: #f2f2f2;
+			margin-top: 45px;
+			height: 40px;
+			border-radius: 10px;
+			border: 1px solid #f2f2f2;
+
+			.input {
+				margin-left: 30px;
+				font-size: 12px;
+				text-indent: 15px;
+				margin-top: 6px;
+				height: 20px;
+				line-height: 22px;
+				margin-top: 5px;
 			}
-			.imgIcon{
-				width:20px;height:20px;left:15px;top:10px;
+
+			.imgIcon {
+				width: 20px;
+				height: 20px;
+				left: 15px;
+				top: 10px;
 			}
-			.Vcode{
-				width:100px;right:0;top:0;text-align: center;background-color:#2292DD;color:#fff;height:40px;line-height:40px;font-size:12px;
+
+			.Vcode {
+				width: 100px;
+				right: 0;
+				top: 0;
+				text-align: center;
+				background-color: #2292DD;
+				color: #fff;
+				height: 40px;
+				line-height: 40px;
+				font-size: 12px;
 			}
-			.button{
-				height:40px;line-height: 40px;font-size:14px;background-color:#2292DD;border-radius:10px;
+
+			.button {
+				height: 40px;
+				line-height: 40px;
+				font-size: 14px;
+				background-color: #2292DD;
+				border-radius: 10px;
 			}
 		}
 	}

@@ -1,0 +1,19 @@
+.dzmj .dgmj-Img.data-v-403194e8 {
+  height: 100vh;
+  width: 100%;
+}
+.dzmj .dgmj-Img .ImgBox.data-v-403194e8 {
+  width: 100%;
+  height: 100%;
+}
+.dzmj .code.data-v-403194e8 {
+  width: 90%;
+  height: 65%;
+  left: 50%;
+  top: 20px !important;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  top: 0;
+  margin-left: -45%;
+}
+

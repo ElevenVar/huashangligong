@@ -1,1 +1,1 @@
-<view>设置</view>
+<view class="setUp"><view class="zlList flex bgWthite"><view class="zlList-text">头像</view><view class="zlList-imgBox flex"><image class="zlList-img" src="../../static/img/homeImg/banner1.png" mode></image><image class="zlList-imgdk" src="../../static/img/setupImg/dk.png" mode></image></view></view><view class="outLogin bgWthite"><view data-event-opts="{{[['tap',[['OutLogin',['$event']]]]]}}" class="out" bindtap="__e">退出登录</view></view></view>

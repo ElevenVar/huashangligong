@@ -1,0 +1,46 @@
+.setUp {
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+.zlList {
+  height: 60px;
+  line-height: 60px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.zlList .zlList-text {
+  padding-left: 15px;
+}
+.zlList .zlList-imgBox {
+  width: 75px;
+  margin-top: 3px;
+  padding-right: 20px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.zlList .zlList-imgBox .zlList-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 3px;
+}
+.zlList .zlList-imgBox .zlList-imgdk {
+  width: 15px;
+  height: 15px;
+  margin-top: 20px;
+}
+.outLogin {
+  height: 60px;
+  margin-top: 5px;
+}
+.outLogin .out {
+  width: 80px;
+  text-align: center;
+  line-height: 60px;
+  margin: 0 auto;
+}
+

@@ -1,6 +1,35 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+			"path": "pages/chengjichaxun/chengjichaxun",
+			"style": {
+				"navigationBarTitleText": "成绩查询",
+				"navigationBarBackgroundColor": "#129aff",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/dianzimenjin/dianzimenjin",
+			"style": {
+				"navigationBarTitleText": "电子门禁",
+				"navigationBarBackgroundColor": "#129aff",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#129aff",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/setup/setup",
+			"style": {
+				"navigationBarTitleText": "设置", //导航栏文字
+				"navigationBarBackgroundColor": "#129aff", //导航栏背景颜色
+				"navigationBarTextStyle": "white" //导航栏文字颜色
+			}
+		}, {
 			"path": "pages/main/main",
 			"style": {
 				"navigationBarTitleText": "我的",
@@ -11,113 +40,84 @@
 			"style": {
 				"navigationBarTitleText": "消息中心",
 				"navigationBarBackgroundColor": "#129aff",
-				"navigationBarTextStyle":"white"
+				"navigationBarTextStyle": "white"
 			}
 		}, {
 			"path": "pages/index/index",
 			"style": {
 				"navigationStyle": "custom",
 				"navigationBarBackgroundColor": "#129aff",
-				"navigationBarTextStyle":"white"
+				"navigationBarTextStyle": "white"
 			}
 		}, {
 			"path": "pages/home/home",
 			"style": {
 				"navigationStyle": "custom",
 				"navigationBarBackgroundColor": "#129aff",
-				"navigationBarTextStyle":"white"
+				"navigationBarTextStyle": "white"
 			}
 		}, {
 			"path": "pages/payment/payment",
 			"style": {
 				"navigationBarTitleText": "支付",
 				"navigationBarBackgroundColor": "#129aff",
-				"navigationBarTextStyle":"white"
-			}
-		}, {
-			"path": "pages/login/login",
-			"style": {
-				"navigationBarTitleText": "首页",
-				"navigationStyle": "custom",
-				"navigationBarBackgroundColor": "#129aff",
-				"navigationBarTextStyle":"white"
+				"navigationBarTextStyle": "white"
 			}
 		}, {
 			"path": "pages/modules/modules",
 			"style": {
 				"navigationBarTitleText": "功能",
 				"navigationBarBackgroundColor": "#129aff",
-				"navigationBarTextStyle":"white"
-			}
-		}, {
-			"path": "pages/setup/setup",
-			"style": {
-				"navigationBarTitleText": "设置",//导航栏文字
-				"navigationBarBackgroundColor": "#129aff",//导航栏背景颜色
-				"navigationBarTextStyle":"white"//导航栏文字颜色
+				"navigationBarTextStyle": "white"
 			}
 		}, {
 			"path": "pages/information/information",
 			"style": {
 				"navigationBarTitleText": "个人信息",
 				"navigationBarBackgroundColor": "#129aff",
-				"navigationBarTextStyle":"white"
-			}
-		}, {
-			"path": "pages/dianzimenjin/dianzimenjin",
-			"style": {
-				"navigationBarTitleText": "电子门禁",
-				"navigationBarBackgroundColor": "#129aff",
-				"navigationBarTextStyle":"white"
+				"navigationBarTextStyle": "white"
 			}
 		}, {
 			"path": "pages/xuefei/xuefei",
 			"style": {
 				"navigationBarTitleText": "学费",
 				"navigationBarBackgroundColor": "#129aff",
-				"navigationBarTextStyle":"white"
+				"navigationBarTextStyle": "white"
 			}
 		}, {
 			"path": "pages/qingjia/qingjia",
 			"style": {
 				"navigationBarTitleText": "请假",
 				"navigationBarBackgroundColor": "#129aff",
-				"navigationBarTextStyle":"white"
-			}
-		}, {
-			"path": "pages/chengjichaxun/chengjichaxun",
-			"style": {
-				"navigationBarTitleText": "成绩查询",
-				"navigationBarBackgroundColor": "#129aff",
-				"navigationBarTextStyle":"white"
+				"navigationBarTextStyle": "white"
 			}
 		}, {
 			"path": "pages/gongzichaxun/gongzichaxun",
 			"style": {
 				"navigationBarTitleText": "工资查询",
 				"navigationBarBackgroundColor": "#129aff",
-				"navigationBarTextStyle":"white"
+				"navigationBarTextStyle": "white"
 			}
 		}, {
 			"path": "pages/xuezafei/xuezafei",
 			"style": {
 				"navigationBarTitleText": "学杂费",
 				"navigationBarBackgroundColor": "#129aff",
-				"navigationBarTextStyle":"white"
+				"navigationBarTextStyle": "white"
 			}
 		}, {
 			"path": "pages/gongxiangxiyiji/gongxiangxiyiji",
 			"style": {
 				"navigationBarTitleText": "共享洗衣机",
 				"navigationBarBackgroundColor": "#129aff",
-				"navigationBarTextStyle":"white"
+				"navigationBarTextStyle": "white"
 			}
 		}, {
 			"path": "pages/kecheng/kecheng",
 			"style": {
 				"navigationBarTitleText": "课程",
 				"navigationBarBackgroundColor": "#129aff",
-				"navigationBarTextStyle":"white"
+				"navigationBarTextStyle": "white"
 			}
 		}
 	],

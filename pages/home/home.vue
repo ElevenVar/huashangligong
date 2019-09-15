@@ -4,7 +4,7 @@
 			<image class='headerImg' src="../../static/img/homeImg/banner1.png" mode=""></image>
 		</view>
 		<view class='zlGrid pd10'>
-			<view class="zlGrid-Item col-4" :key="item.index" v-for="(item,index) in GridItem" @tap="zlGridC(item.text,index)">
+			<view class="zlGrid-Item col-4" :key="item.index" v-for="(item,index) in GridItem" @tap="zlGridC(index)">
 				<view>
 					<image class="zlGrid-Img" :src="item.url" mode=""></image>
 				</view>
@@ -82,12 +82,24 @@
 				]
 			};
 		},
+		onShow(){
+			let that = this;
+			uni.getStorage({
+				key:"userInfo",
+				success: (res) => {
+					let data = JSON.parse(res.data);
+					if(data.type==2){
+						this.GridItem[0].text = "缴费详情"
+					}
+				}
+			})
+		},
 		onTabItemTap(index){
 			console.log(index)
 		},
 		methods: {
-			zlGridC(item, index) {
-				console.log(item, index)
+			zlGridC(index) {
+				console.log(index)
 			},
 			//获取电脑时间
 			time() {
