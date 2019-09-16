@@ -189,9 +189,8 @@ var _default = { data: function data() {return { activeClass: 0, roleList: ["学
         "pwd": "123456", //密码
         "type": "" } };}, methods: { //选择登陆角色
     selectRole: function selectRole(index) {this.activeClass = index;this.from.user_name = "";this.from.pwd = "";}, //登录
-    submit: function submit() {console.log(_api.login);this.from.type = this.activeClass + 1;this.from.pwd = (0, _jsMd.default)(this.from.pwd).toUpperCase();uni.showLoading({ title: '登录中..' });uni.request({ url: _api.login, method: 'POST', data: this.from, success: function success(res) {uni.hideLoading(); //结束请求动画
-          if (res.data.code == 200) {uni.setStorageSync("token", res.data.data.token);uni.setStorageSync("userInfo", JSON.stringify(res.data.data));uni.switchTab({ url: '../home/home' });} else {uni.showToast({ title: res.data.msg, icon: 'none',
-              duration: 2000 });
+    submit: function submit() {this.from.type = this.activeClass + 1;this.from.pwd = (0, _jsMd.default)(this.from.pwd).toUpperCase();uni.showLoading({ title: '登录中..' });uni.request({ url: _api.login, method: 'POST', data: this.from, success: function success(res) {uni.hideLoading(); //结束请求动画
+          if (res.data.code == 200) {uni.setStorageSync("token", res.data.data.token);uni.setStorageSync("userInfo", JSON.stringify(res.data.data));uni.switchTab({ url: '../home/home' });} else {uni.showToast({ title: res.data.msg, icon: 'none', duration: 2000 });
 
           }
         },
