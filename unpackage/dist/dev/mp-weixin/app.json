@@ -1,8 +1,8 @@
 {
   "pages": [
     "pages/chengjichaxun/chengjichaxun",
-    "pages/dianzimenjin/dianzimenjin",
     "pages/login/login",
+    "pages/dianzimenjin/dianzimenjin",
     "pages/setup/setup",
     "pages/main/main",
     "pages/message/message",

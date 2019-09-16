@@ -8,17 +8,17 @@
 				"navigationBarTextStyle": "white"
 			}
 		}, {
-			"path": "pages/dianzimenjin/dianzimenjin",
-			"style": {
-				"navigationBarTitleText": "电子门禁",
-				"navigationBarBackgroundColor": "#129aff",
-				"navigationBarTextStyle": "white"
-			}
-		}, {
 			"path": "pages/login/login",
 			"style": {
 				"navigationBarTitleText": "首页",
 				"navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#129aff",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/dianzimenjin/dianzimenjin",
+			"style": {
+				"navigationBarTitleText": "电子门禁",
 				"navigationBarBackgroundColor": "#129aff",
 				"navigationBarTextStyle": "white"
 			}

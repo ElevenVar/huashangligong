@@ -1,9 +1,9 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["common/vendor"],{
 
 /***/ 0:
-/*!*****************************************!*\
-  !*** D:/project/huashangligong/main.js ***!
-  \*****************************************/
+/*!****************************************************!*\
+  !*** D:/project/zl-project/huashangligong/main.js ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13,11 +13,13 @@ var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
 var _App = _interopRequireDefault(__webpack_require__(/*! ./App */ 5));
 var _vuex = _interopRequireDefault(__webpack_require__(/*! vuex */ 11));
 var _index = _interopRequireDefault(__webpack_require__(/*! ./store/index.js */ 12));
-var _api = _interopRequireDefault(__webpack_require__(/*! ./http/api.js */ 13));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}
+var _api = _interopRequireDefault(__webpack_require__(/*! ./api/api.js */ 13));
+var _api2 = _interopRequireDefault(__webpack_require__(/*! ./http/api.js */ 14));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}
 
 _vue.default.config.productionTip = false;
-_vue.default.prototype.$http = _api.default;
+_vue.default.prototype.$http = _api2.default;
 _vue.default.prototype.$store = _index.default;
+_vue.default.prototype.$url = _api.default;
 _App.default.mpType = 'app';
 
 var app = new _vue.default(_objectSpread({},
@@ -1612,9 +1614,9 @@ function normalizeComponent (
 /***/ }),
 
 /***/ 104:
-/*!****************************************************************************!*\
-  !*** D:/project/huashangligong/main.js?{"page":"pages%2Fxuefei%2Fxuefei"} ***!
-  \****************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/project/zl-project/huashangligong/main.js?{"page":"pages%2Fxuefei%2Fxuefei"} ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2580,9 +2582,9 @@ var index_esm = {
 /***/ }),
 
 /***/ 110:
-/*!******************************************************************************!*\
-  !*** D:/project/huashangligong/main.js?{"page":"pages%2Fqingjia%2Fqingjia"} ***!
-  \******************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/project/zl-project/huashangligong/main.js?{"page":"pages%2Fqingjia%2Fqingjia"} ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2597,9 +2599,9 @@ createPage(_qingjia.default);
 /***/ }),
 
 /***/ 116:
-/*!****************************************************************************************!*\
-  !*** D:/project/huashangligong/main.js?{"page":"pages%2Fgongzichaxun%2Fgongzichaxun"} ***!
-  \****************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** D:/project/zl-project/huashangligong/main.js?{"page":"pages%2Fgongzichaxun%2Fgongzichaxun"} ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2614,9 +2616,9 @@ createPage(_gongzichaxun.default);
 /***/ }),
 
 /***/ 12:
-/*!************************************************!*\
-  !*** D:/project/huashangligong/store/index.js ***!
-  \************************************************/
+/*!***********************************************************!*\
+  !*** D:/project/zl-project/huashangligong/store/index.js ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2641,9 +2643,9 @@ new _vuex.default.Store({
 /***/ }),
 
 /***/ 122:
-/*!********************************************************************************!*\
-  !*** D:/project/huashangligong/main.js?{"page":"pages%2Fxuezafei%2Fxuezafei"} ***!
-  \********************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/project/zl-project/huashangligong/main.js?{"page":"pages%2Fxuezafei%2Fxuezafei"} ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2658,9 +2660,9 @@ createPage(_xuezafei.default);
 /***/ }),
 
 /***/ 128:
-/*!**********************************************************************************************!*\
-  !*** D:/project/huashangligong/main.js?{"page":"pages%2Fgongxiangxiyiji%2Fgongxiangxiyiji"} ***!
-  \**********************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** D:/project/zl-project/huashangligong/main.js?{"page":"pages%2Fgongxiangxiyiji%2Fgongxiangxiyiji"} ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2675,14 +2677,46 @@ createPage(_gongxiangxiyiji.default);
 /***/ }),
 
 /***/ 13:
-/*!*********************************************!*\
-  !*** D:/project/huashangligong/http/api.js ***!
-  \*********************************************/
+/*!*******************************************************!*\
+  !*** D:/project/zl-project/huashangligong/api/api.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _http = _interopRequireDefault(__webpack_require__(/*! ./http */ 14));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+Object.defineProperty(exports, "__esModule", { value: true });exports.showGrade = exports.login = void 0;var baseUrl = "http://hslpapi.hspv.net/user/"; //线上环境
+var login = baseUrl + "login";exports.login = login;
+var showGrade = baseUrl + "show/grade"; //成绩查询
+exports.showGrade = showGrade;
+
+/***/ }),
+
+/***/ 136:
+/*!*****************************************************************************************!*\
+  !*** D:/project/zl-project/huashangligong/main.js?{"page":"pages%2Fkecheng%2Fkecheng"} ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
+var _kecheng = _interopRequireDefault(__webpack_require__(/*! ./pages/kecheng/kecheng.vue */ 137));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_kecheng.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
+
+/***/ }),
+
+/***/ 14:
+/*!********************************************************!*\
+  !*** D:/project/zl-project/huashangligong/http/api.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _http = _interopRequireDefault(__webpack_require__(/*! ./http */ 15));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 // import config from "../config/index.js";
 // import util from '../utils/util.js';
 
@@ -2752,27 +2786,10 @@ http;exports.default = _default;
 
 /***/ }),
 
-/***/ 134:
-/*!******************************************************************************!*\
-  !*** D:/project/huashangligong/main.js?{"page":"pages%2Fkecheng%2Fkecheng"} ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _kecheng = _interopRequireDefault(__webpack_require__(/*! ./pages/kecheng/kecheng.vue */ 135));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_kecheng.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
-
-/***/ }),
-
-/***/ 14:
-/*!**********************************************!*\
-  !*** D:/project/huashangligong/http/http.js ***!
-  \**********************************************/
+/***/ 15:
+/*!*********************************************************!*\
+  !*** D:/project/zl-project/huashangligong/http/http.js ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2951,10 +2968,10 @@ Http = /*#__PURE__*/function () {
 
 /***/ }),
 
-/***/ 15:
-/*!******************************************************************************************!*\
-  !*** D:/project/huashangligong/main.js?{"page":"pages%2Fchengjichaxun%2Fchengjichaxun"} ***!
-  \******************************************************************************************/
+/***/ 16:
+/*!*************************************************************************************!*\
+  !*** D:/project/zl-project/huashangligong/main.js?{"page":"pages%2Flogin%2Flogin"} ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2962,8 +2979,8 @@ Http = /*#__PURE__*/function () {
 /* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _chengjichaxun = _interopRequireDefault(__webpack_require__(/*! ./pages/chengjichaxun/chengjichaxun.vue */ 16));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_chengjichaxun.default);
+var _login = _interopRequireDefault(__webpack_require__(/*! ./pages/login/login.vue */ 17));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_login.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
 
 /***/ }),
@@ -8917,90 +8934,10 @@ internalMixin(Vue);
 
 /***/ }),
 
-/***/ 23:
-/*!****************************************************************************************!*\
-  !*** D:/project/huashangligong/main.js?{"page":"pages%2Fdianzimenjin%2Fdianzimenjin"} ***!
-  \****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _dianzimenjin = _interopRequireDefault(__webpack_require__(/*! ./pages/dianzimenjin/dianzimenjin.vue */ 24));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_dianzimenjin.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
-
-/***/ }),
-
-/***/ 3:
-/*!***********************************!*\
-  !*** (webpack)/buildin/global.js ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || new Function("return this")();
-} catch (e) {
-	// This works if the window reference is available
-	if (typeof window === "object") g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
-
-/***/ }),
-
-/***/ 31:
-/*!**************************************************************************!*\
-  !*** D:/project/huashangligong/main.js?{"page":"pages%2Flogin%2Flogin"} ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _login = _interopRequireDefault(__webpack_require__(/*! ./pages/login/login.vue */ 32));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_login.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
-
-/***/ }),
-
-/***/ 37:
-/*!********************************************!*\
-  !*** D:/project/huashangligong/api/api.js ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.login = void 0;var baseUrl = "http://hslpapi.hspv.net/user/"; //线上环境
-
-var login = baseUrl + 'login'; //登录
-exports.login = login;
-
-/***/ }),
-
-/***/ 38:
-/*!******************************************************************************!*\
-  !*** D:/project/huashangligong/node_modules/_js-md5@0.7.3@js-md5/src/md5.js ***!
-  \******************************************************************************/
+/***/ 22:
+/*!***************************************************************************!*\
+  !*** D:/project/zl-project/huashangligong/node_modules/js-md5/src/md5.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9031,7 +8968,7 @@ exports.login = login;
     root = self;
   }
   var COMMON_JS = !root.JS_MD5_NO_COMMON_JS && typeof module === 'object' && module.exports;
-  var AMD =  true && __webpack_require__(/*! !webpack amd options */ 41);
+  var AMD =  true && __webpack_require__(/*! !webpack amd options */ 25);
   var ARRAY_BUFFER = !root.JS_MD5_NO_ARRAY_BUFFER && typeof ArrayBuffer !== 'undefined';
   var HEX_CHARS = '0123456789abcdef'.split('');
   var EXTRA = [128, 32768, 8388608, -2147483648];
@@ -9689,11 +9626,11 @@ exports.login = login;
     }
   }
 })();
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../TOOl/HBuilderX.2.2.2.20190816.full/HBuilderX/plugins/uniapp-cli/node_modules/node-libs-browser/mock/process.js */ 39), __webpack_require__(/*! ./../../../../../TOOl/HBuilderX.2.2.2.20190816.full/HBuilderX/plugins/uniapp-cli/node_modules/webpack/buildin/global.js */ 3)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../BaiduNetdiskDownload/2.2.2/HBuilderX.2.2.2.20190816.full/HBuilderX/plugins/uniapp-cli/node_modules/node-libs-browser/mock/process.js */ 23), __webpack_require__(/*! ./../../../../../../BaiduNetdiskDownload/2.2.2/HBuilderX.2.2.2.20190816.full/HBuilderX/plugins/uniapp-cli/node_modules/webpack/buildin/global.js */ 3)))
 
 /***/ }),
 
-/***/ 39:
+/***/ 23:
 /*!********************************************************!*\
   !*** ./node_modules/node-libs-browser/mock/process.js ***!
   \********************************************************/
@@ -9720,7 +9657,7 @@ exports.binding = function (name) {
     var path;
     exports.cwd = function () { return cwd };
     exports.chdir = function (dir) {
-        if (!path) path = __webpack_require__(/*! path */ 40);
+        if (!path) path = __webpack_require__(/*! path */ 24);
         cwd = path.resolve(dir, cwd);
     };
 })();
@@ -9734,19 +9671,7 @@ exports.features = {};
 
 /***/ }),
 
-/***/ 4:
-/*!********************************************!*\
-  !*** D:/project/huashangligong/pages.json ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/***/ }),
-
-/***/ 40:
+/***/ 24:
 /*!***********************************************!*\
   !*** ./node_modules/path-browserify/index.js ***!
   \***********************************************/
@@ -9978,11 +9903,11 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 39)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 23)))
 
 /***/ }),
 
-/***/ 41:
+/***/ 25:
 /*!****************************************!*\
   !*** (webpack)/buildin/amd-options.js ***!
   \****************************************/
@@ -9996,10 +9921,87 @@ module.exports = __webpack_amd_options__;
 
 /***/ }),
 
+/***/ 28:
+/*!*****************************************************************************************************!*\
+  !*** D:/project/zl-project/huashangligong/main.js?{"page":"pages%2Fchengjichaxun%2Fchengjichaxun"} ***!
+  \*****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
+var _chengjichaxun = _interopRequireDefault(__webpack_require__(/*! ./pages/chengjichaxun/chengjichaxun.vue */ 29));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_chengjichaxun.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
+
+/***/ }),
+
+/***/ 3:
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || new Function("return this")();
+} catch (e) {
+	// This works if the window reference is available
+	if (typeof window === "object") g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
+
+/***/ }),
+
+/***/ 36:
+/*!***************************************************************************************************!*\
+  !*** D:/project/zl-project/huashangligong/main.js?{"page":"pages%2Fdianzimenjin%2Fdianzimenjin"} ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
+var _dianzimenjin = _interopRequireDefault(__webpack_require__(/*! ./pages/dianzimenjin/dianzimenjin.vue */ 37));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_dianzimenjin.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
+
+/***/ }),
+
+/***/ 4:
+/*!*******************************************************!*\
+  !*** D:/project/zl-project/huashangligong/pages.json ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/***/ }),
+
 /***/ 44:
-/*!**************************************************************************!*\
-  !*** D:/project/huashangligong/main.js?{"page":"pages%2Fsetup%2Fsetup"} ***!
-  \**************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/project/zl-project/huashangligong/main.js?{"page":"pages%2Fsetup%2Fsetup"} ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10014,9 +10016,9 @@ createPage(_setup.default);
 /***/ }),
 
 /***/ 52:
-/*!************************************************************************!*\
-  !*** D:/project/huashangligong/main.js?{"page":"pages%2Fmain%2Fmain"} ***!
-  \************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/project/zl-project/huashangligong/main.js?{"page":"pages%2Fmain%2Fmain"} ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10031,9 +10033,9 @@ createPage(_main.default);
 /***/ }),
 
 /***/ 58:
-/*!******************************************************************************!*\
-  !*** D:/project/huashangligong/main.js?{"page":"pages%2Fmessage%2Fmessage"} ***!
-  \******************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/project/zl-project/huashangligong/main.js?{"page":"pages%2Fmessage%2Fmessage"} ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10048,9 +10050,9 @@ createPage(_message.default);
 /***/ }),
 
 /***/ 66:
-/*!**************************************************************************!*\
-  !*** D:/project/huashangligong/main.js?{"page":"pages%2Findex%2Findex"} ***!
-  \**************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/project/zl-project/huashangligong/main.js?{"page":"pages%2Findex%2Findex"} ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10065,9 +10067,9 @@ createPage(_index.default);
 /***/ }),
 
 /***/ 74:
-/*!************************************************************************!*\
-  !*** D:/project/huashangligong/main.js?{"page":"pages%2Fhome%2Fhome"} ***!
-  \************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/project/zl-project/huashangligong/main.js?{"page":"pages%2Fhome%2Fhome"} ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10082,9 +10084,9 @@ createPage(_home.default);
 /***/ }),
 
 /***/ 82:
-/*!******************************************************************************!*\
-  !*** D:/project/huashangligong/main.js?{"page":"pages%2Fpayment%2Fpayment"} ***!
-  \******************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/project/zl-project/huashangligong/main.js?{"page":"pages%2Fpayment%2Fpayment"} ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10099,9 +10101,9 @@ createPage(_payment.default);
 /***/ }),
 
 /***/ 90:
-/*!******************************************************************************!*\
-  !*** D:/project/huashangligong/main.js?{"page":"pages%2Fmodules%2Fmodules"} ***!
-  \******************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/project/zl-project/huashangligong/main.js?{"page":"pages%2Fmodules%2Fmodules"} ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10116,9 +10118,9 @@ createPage(_modules.default);
 /***/ }),
 
 /***/ 96:
-/*!**************************************************************************************!*\
-  !*** D:/project/huashangligong/main.js?{"page":"pages%2Finformation%2Finformation"} ***!
-  \**************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** D:/project/zl-project/huashangligong/main.js?{"page":"pages%2Finformation%2Finformation"} ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

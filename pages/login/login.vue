@@ -62,6 +62,7 @@
 			},
 			//登录
 			submit() {
+				console.log(login)
 				this.from.type = this.activeClass + 1
 				this.from.pwd = md5(this.from.pwd).toUpperCase()
 				uni.showLoading({
